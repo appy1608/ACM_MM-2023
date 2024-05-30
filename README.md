@@ -1,6 +1,6 @@
 # ACM_MM-2023
 
-**AbCoRD: Exploiting multimodal generative approach for Aspect-based Complaint and Rationale Detection**
+[AbCoRD: Exploiting multimodal generative approach for Aspect-based Complaint and Rationale Detection](https://dl.acm.org/doi/10.1145/3581783.3613776)
 
 **Dataset**
 
