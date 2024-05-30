@@ -4,17 +4,28 @@
 
 **Dataset**
 
-We extended the **CESAMARD-Aspect** dataset (https://github.com/appy1608/ECIR2023\_Complaint-Detection). The dataset contains 3962 reviews, with 1321 of them in the complaint category and 2641 in the non-complaint category. It includes information such as image URLs, review titles, review texts, and relevant complaint, sentiment, and emotion labels. The dataset is divided into several domains, including electronics, edibles, fashion, books, and miscellaneous, which makes it ideal for aspect-level complaint and rationale analysis. 
-
-The five domains in the dataset are electronics, edibles, fashion, books, and miscellaneous. There are three common aspects shared between all the domains namely, packaging, price, and quality. The annotated causal span is selected such that best explains the reason for the complaint label in each aspect-level complaint instance in the dataset.
+We extend the _CESAMARD-Aspect_ dataset (https://github.com/appy1608/ECIR2023\_Complaint-Detection). The dataset contains 3962 reviews, with 1321 of them in the complaint category and 2641 in the non-complaint category. It includes information such as image URLs, review titles, review texts, and relevant aspect categories, aspect-level complaint labels. The five domains in the dataset are electronics, edibles, fashion, books, and miscellaneous. There are three common aspects shared between all the domains namely, packaging, price, and quality. The annotated causal span is selected such that best explains the reason for the complaint label in each aspect-level complaint instance based on the review text and review image for each instance in the dataset. Th new dataset is named as **CESAMARD-Rationale**.
 
 
 **Software**
 
-The proposed model **HAMMER**, a Hierarchical Approach for Multi-Modal generative Extraction of Rationale and complaints which reframes the multitasking problem as a multimodal text-to-text generation task and addresses aspect class detection (ACD), aspect-level complaint classification (ACC), and aspect-level rationale detection (ARD). The HAMMER model serves as a benchmark for aspect-level complaint and rationale detection (AlCR), evaluation results demonstrate that the proposed generative model consistently achieves significantly better performance than other baselines and state-of-the-art models in both full and few-shot settings. The software file consists of the implementation files as well as commonsense inference files.
+The proposed model HAMMER reframes the multitasking problem as a multimodal text-to-text generation task. It addresses three key aspects:
 
+a) Aspect Class Detection (ACD)
+b) Aspect-Level Complaint Classification (ACC)
+c) Aspect-Level Rationale Detection (ARD)
 
+HAMMER serves as a benchmark for Aspect-Level Complaint and Rationale detection (AlCR). 
 
+**_Files_**
+
+The repository includes:
+
+Implementation files for the HAMMER model
+Commonsense inference files
+CESAMARD-Rationale dataset
+
+      
 **CITE**
 
 @inproceedings{jain2023abcord,
