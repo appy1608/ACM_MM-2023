@@ -11,7 +11,7 @@ We extend the _CESAMARD-Aspect_ dataset (https://github.com/appy1608/ECIR2023\_C
 
 The proposed model HAMMER reframes the multitasking problem as a multimodal text-to-text generation task. It addresses three key aspects:
 
-a) Aspect Class Detection (ACD)
+a) Aspect Class Detection (ACD) \n
 b) Aspect-Level Complaint Classification (ACC)
 c) Aspect-Level Rationale Detection (ARD)
 
