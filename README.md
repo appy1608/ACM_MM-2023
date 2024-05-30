@@ -3,7 +3,6 @@
 [AbCoRD: Exploiting multimodal generative approach for Aspect-based Complaint and Rationale Detection](https://dl.acm.org/doi/10.1145/3581783.3613776)
 
 **Dataset**
-
 We extend the _CESAMARD-Aspect_ dataset (https://github.com/appy1608/ECIR2023\_Complaint-Detection). The dataset contains 3962 reviews, with 1321 of them in the complaint category and 2641 in the non-complaint category. It includes information such as image URLs, review titles, review texts, and relevant aspect categories, aspect-level complaint labels. The five domains in the dataset are electronics, edibles, fashion, books, and miscellaneous. There are three common aspects shared between all the domains namely, packaging, price, and quality. 
 
 The annotated causal span is selected such that best explains the reason for the complaint label in each aspect-level complaint instance based on the review text and review image for each instance in the dataset. Th new dataset is named as **CESAMARD-Rationale**.
